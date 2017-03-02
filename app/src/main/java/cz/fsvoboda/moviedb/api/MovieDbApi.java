@@ -13,4 +13,7 @@ public interface MovieDbApi {
 
     @GET("movie/popular")
     Call<PopularResponse> getPopularMovies(@Query("page") int page);
+
+    @GET("configuration")
+    Call<ApiConfig> getApiConfig();
 }

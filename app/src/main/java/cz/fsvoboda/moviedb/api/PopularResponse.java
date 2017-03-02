@@ -1,12 +1,14 @@
 package cz.fsvoboda.moviedb.api;
 
+import java.util.List;
+
 /**
  * @author Filip Svoboda
  */
 public class PopularResponse {
 
     private int page;
-    private Movie[] results;
+    private List<Movie> results;
     private int total_results;
     private int total_pages;
 
@@ -18,11 +20,11 @@ public class PopularResponse {
         this.page = page;
     }
 
-    public Movie[] getResults() {
+    public List<Movie> getResults() {
         return results;
     }
 
-    public void setResults(Movie[] results) {
+    public void setResults(List<Movie> results) {
         this.results = results;
     }
 
