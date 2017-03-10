@@ -3,7 +3,7 @@ package cz.fsvoboda.moviedb.api;
 import java.util.List;
 
 /**
- * Created by filip on 3/2/17.
+ * @author Filip Svoboda
  */
 
 public class ImagesConfig {
